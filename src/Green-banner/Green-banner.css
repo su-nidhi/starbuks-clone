@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner-container{
+background-color:  #1e3932;
+color: white;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 10px;
+margin-bottom: 10px;
+padding: 30px;
+padding-left: 150px;
+padding-right: 130px;
+}
+
+.btn-know button{
+    background-color:#1e3932 ;
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 5px;
+
+}
+.starbuks-tx{
+    font-size: 25px;
+}

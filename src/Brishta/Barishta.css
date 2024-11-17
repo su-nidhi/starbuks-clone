@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.brishta-tx {
+    padding-left: 4.35em;
+    color: #1e3932;
+    margin-top: 1em;
+
+}
+
+.txt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 4em;
+    margin-top: 2em;
+    margin-bottom: 2em
+}
+
+.brish-c {
+    background-color: #edebe9;
+    position: relative;
+}
+
+.leaf img {
+    position: absolute;
+    top: 2px;
+    right: 1px;
+    width: 57px;
+    height: 70px;
+}
+
+.view {
+    font-size: 20px;
+    color: green;
+
+}
+
+.b-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
+
+.br {
+    width: 400px;
+    height: 107px;
+    background-color: white;
+    padding: 24px 16px;
+    border-radius: 10px;
+}
+
+.img-s {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.slider {
+    width: 360px;
+    height: 160px;
+    background-color: white;
+    padding: 16px 24px;
+
+    display: flex;
+    border-radius: 10px;
+
+    margin-left: 73px;
+}
+
+.slide {
+    display: flex;
+    padding: 50px;
+    margin-left: 50px;
+}
+
+.add-item {
+    background-color: green;
+    color: white;
+    border-radius: 15px;
+    width: 85px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    position: relative;
+    top: 40px;
+    left: 80px;
+
+}
+
+.slide-container {
+    height: 250px;
+}

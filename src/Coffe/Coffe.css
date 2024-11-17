@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head{
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 135px;
+    padding-right: 100px;
+}
+.learn{
+    font-size: 25px;
+    font-weight: 700;
+    color:#1e3932 ;
+}
+.heading{
+    background-color: #edebe9;
+    margin-top: 70px;
+}
+.discover{
+    color: green;
+    font-weight: 600px;
+}
+.img-container{
+    border-radius:  10px;
+    cursor: pointer;
+    position: relative;
+}
+.tx-contain{
+  display: flex;
+  flex-direction: column;
+   justify-content: space-between; 
+   width: 553px;
+    height: 120px;
+    position: absolute;
+    bottom: 30px;
+    left: 30px; 
+    color: white;
+}
+.cofe-creature{
+    background-color: white;
+    color: green;
+    padding: 3px;
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+}
+
+.img-container{
+    background-image: url('../../public/images/bg-img.jpg');
+    background-color: rgba(0,0,0,0.2);
+    background-blend-mode: multiply;
+    height: 400px;
+    width: 80%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+}
+.img-container:hover{
+    filter:brightness(50%) ;
+    transition: all 1s ease;
+}
+.btn-learn{
+    width: 190px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    color: black;
+    align-items: center;
+    border-radius: 20px;
+    border:1px white;
+}
+.contain{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}

@@ -1,0 +1,35 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bgg{
+    width: 1000px;
+    height: 200px;
+    position: relative;
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.bnr-contain{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+   
+}
+.bnr-tx{
+    position: absolute;
+/* 
+    left: 400px;
+    top: 200px; */
+    z-index: 2;
+    display: flex;
+  width: 55%;
+  justify-content: space-between;
+  align-items: center;
+}
+.bnr-tx img{
+    width: 140px;
+    height: 200px;
+}
